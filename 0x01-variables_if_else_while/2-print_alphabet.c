@@ -10,9 +10,9 @@
  */
 int main(void)
 {
-	string[] alpha;
+	int alpha;
 
-	alpha = {a..Z};
+	for (alpha = 'a'; alpha <= 'Z'; alpha++);
 	putchar(alpha);
 	return (0);
 }
