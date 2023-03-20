@@ -15,8 +15,8 @@ int main(void)
 	for (num = 48 ; num < 58; ++num)
 	{
 		putchar(num);
-		putchar(space);
 		putchar(coma);
+		putchar(space);
 	};
 	return (0);
 }
