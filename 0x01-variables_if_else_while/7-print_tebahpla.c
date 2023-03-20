@@ -1,7 +1,8 @@
+
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* print numbers */
+/* using putchar */
 
 /**
  * main - Entry point
@@ -10,11 +11,11 @@
  */
 int main(void)
 {
-	int num;
+	int alpha;
 
-	for (num = 0 ; num < 10; ++num)
+	for (alpha = 122 ; alpha >= 97; --alpha)
 	{
-		printf("%d", num);
+		putchar(alpha);
 	};
 	putchar('\n');
 	return (0);
