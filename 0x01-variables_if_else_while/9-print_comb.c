@@ -10,12 +10,13 @@
  */
 int main(void)
 {
-	int num, coma = 44, dollar = 36;
+	int num, coma = 44, space = 32;
 
 	for (num = 48 ; num < 58; ++num)
 	{
 		putchar(num);
-		putchar(" "coma);
+		putchar(space);
+		putchar(coma);
 	};
 	return (0);
 }
