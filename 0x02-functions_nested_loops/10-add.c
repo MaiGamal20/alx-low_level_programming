@@ -2,8 +2,9 @@
 #include "main.h"
 /**
  * add - a function that adds two integers and returns the result.
- * @int: the type of inputs and outputs value
- * Return: adding result
+ * @a: the 1st number of inputs
+ * @b: the 2nd number of inputs
+ * Return: adding result c
  */
 int add(int a, int b)
 {
