@@ -15,7 +15,7 @@ void times_table(void)
 			times = n * b;
 			if (times < 10 && b != 0)
 			{
-				_putchar(' ')
+				_putchar(' ');
 			}
 			if (times >= 10)
 			{
